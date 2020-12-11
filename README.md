@@ -18,6 +18,8 @@ This program allows you to create buttons to press when you want to start and en
 
 ## Workflow
 
+### 👀 [Watch a Demo Video (38 seconds)](https://vimeo.com/489768835)
+
 1. When an IoT button is pressed, it connects to the network via Wi-Fi.
 2. A Cisco router assigns IP addresses to the button via DHCP.
 3. EEM (Embedded Event Manager) built-in Cisco IOS XE is waiting for this DHCP event log entry, and kick off the Python program `main.py`. 
