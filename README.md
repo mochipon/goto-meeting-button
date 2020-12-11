@@ -1,6 +1,6 @@
 # Go To Meeting Button
 
-This tiny script creates an IoT button that may solves domestic problems in conducting a remote conferencing at home.
+This tiny script creates an IoT button that may solve domestic problems in conducting remote conferencing at home.
 
 ## Introduction
 
