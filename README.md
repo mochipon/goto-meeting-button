@@ -1,5 +1,9 @@
 # Go To Meeting Button
 
+[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/mochipon/goto-meeting-button)
+[![Maintainability](https://api.codeclimate.com/v1/badges/4986b77fa0b2762c6c4f/maintainability)](https://codeclimate.com/github/mochipon/goto-meeting-button/maintainability)
+![Dependabot Badge](https://badgen.net/dependabot/mochipon/goto-meeting-button?icon=dependabot)
+
 This tiny script creates an IoT button that may solve domestic problems in conducting remote conferencing at home.
 
 ## Introduction
