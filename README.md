@@ -12,6 +12,15 @@ This program allows you to create buttons to press when you want to start and en
 
 ![At-a-glance](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/214716/1a11f38d-6076-837f-1899-e146cdcefc00.png)
 
+## Workflow
+
+1. When an IoT button is pressed, it connects to the network via Wi-Fi.
+2. A Cisco router assigns IP addresses to the button via DHCP.
+3. EEM (Embedded Event Manager) built-in Cisco IOS XE is waiting for this DHCP event log entry, and kick off the Python program `main.py`. 
+4. The python program does...
+    1. Communicate with the Google Chromecast and play announcements `ON.mp3` or `OFF.mp3`.
+    2. Apply a QoS configuration to the router.
+
 ## Requirement
 
 - Cisco IOS XE Amsterdam 17.3.1 and later releases.
@@ -29,9 +38,9 @@ Please refer to the document - [Programmability Configuration Guide, Cisco IOS X
 [guestshell@guestshell ~]$ sudo pip3 install virtualenv
 [guestshell@guestshell ~]$ git clone https://github.com/mochipon/goto-meeting-button
 [guestshell@guestshell ~]$ cd goto-meeting-button
-[guestshell@guestshell ~]$ virtualenv --system-site-packages v # Do not forget '--system-site-packages' as we want to use the 'cli' module in our virtual env.
-[guestshell@guestshell ~]$ . v/bin/activate
-[guestshell@guestshell ~]$ pip install -r requirements.txt
+[guestshell@guestshell goto-meeting-button]$ virtualenv --system-site-packages v # Do not forget '--system-site-packages' as we want to use the 'cli' module in our virtual env.
+[guestshell@guestshell goto-meeting-button]$ . v/bin/activate
+[guestshell@guestshell goto-meeting-button]$ pip install -r requirements.txt
 ```
 
 Please place `ON.mp3` to be played at the beginning of the meeting and `OFF.mp3` to be played at the end of the meeting in `htdoc`.
