@@ -12,7 +12,8 @@ This program allows you to create buttons to press when you want to start and en
 
 ## Requirement
 
-- Cisco IOS XE Amsterdam 17.3.1 and later releases
+- Cisco IOS XE Amsterdam 17.3.1 and later releases.
+- IoT Button (I personally use [Seeed ReButton](https://seeedjp.github.io/ReButton/), but anything that can be connected to the network is okay).
 
 ## Installation
 
