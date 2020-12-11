@@ -31,6 +31,8 @@ Please refer to the document - [Programmability Configuration Guide, Cisco IOS X
 [guestshell@guestshell ~]$ pip install -r requirements.txt
 ```
 
+Please place `ON.mp3` to be played at the beginning of the meeting and `OFF.mp3` to be played at the end of the meeting in `htdoc`.
+
 ### 3. Setup QoS configs 
 ```shell
 router#conf t
