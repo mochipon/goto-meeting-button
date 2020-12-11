@@ -10,6 +10,8 @@ First, our family may start cleaning/washing unexpectedly without any bad intent
 
 This program allows you to create buttons to press when you want to start and end a meeting. When the Cisco router detects that this button has been pressed, it will first use the smart speaker (Google Home) in the house to notify the family by voice that the meeting has started or ended. In addition to that, during a remote conferencing, the QoS settings of the router wii be changed to limit the bandwidth of non-business related applications.
 
+![At-a-glance](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/214716/1a11f38d-6076-837f-1899-e146cdcefc00.png)
+
 ## Requirement
 
 - Cisco IOS XE Amsterdam 17.3.1 and later releases.
