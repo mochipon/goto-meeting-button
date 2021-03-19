@@ -4,7 +4,9 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/4986b77fa0b2762c6c4f/maintainability)](https://codeclimate.com/github/mochipon/goto-meeting-button/maintainability)
 ![Dependabot Badge](https://badgen.net/dependabot/mochipon/goto-meeting-button?icon=dependabot)
 
-This tiny script creates an IoT button that may solve domestic problems in conducting remote conferencing at home.
+This tiny script creates an IoT button that may solve domestic problems in video conferencing at home.
+
+## 日本語は[こちら](https://qiita.com/matagawa/items/951c65a07cf8a46c0760)
 
 ## Introduction
 
